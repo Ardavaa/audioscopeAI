@@ -15,7 +15,7 @@ Audioscope AI is a decentralized web-based platform that leverages machine learn
 | **Name**                    | **Role**           |
 | --------------------------- | ------------------ |
 | Muhammad Karov Ardava Barus | Lead, AI/ML Engineer (Hacker)|
-| Agni Pulung Tondo Drawino   | AI/ML Engineeer (Hacker)   |
+| Agni Pulung Tondo Drawino   | AI/ML Engineer (Hacker)   |
 | Farrel Ardya Ghalyndra          | Web 3.0 Developer (Hacker)              |
 | Casta Garneta         | UI/UX Designer (Hipster) |
 | Amira Nida Nisrina         | Business Lead & Presenter (Hustler) |
