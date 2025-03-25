@@ -177,17 +177,34 @@ export default function Hero() {
     <section id="banner"
     className="w-full min-h-7/12 bg-white bg-cover bg-center flex flex-col items-center px-18"
     >
-     <div class="mt-44 w-[97%] h-48 rounded-xl bg-gradient-to-br from-white via-[#adebf0] to-white flex items-center justify-center text-center shadow-lg">
-      <div className="my-32">
-        <h2 class="text-3xl text-gray-900">Stay Ahead of Lung Disease</h2>
-        <p class="text-gray-500">Try now for an early detection</p>
-        <button class="mt-4 px-6 py-2 bg-[#7fc8d6] text-white rounded-full shadow-md hover:bg-[#6bb5c4] transition">
-          Start Diagnosis ✨
+     <div class="my-32 py-48 w-[97%] h-48 rounded-xl bg-gradient-to-br from-white via-[#adebf0] to-white flex items-center justify-center text-center shadow-lg">
+      <div className="pb-16">
+        <h2 class=" pt-20 text-4xl text-gray-900">Stay Ahead of Lung Disease</h2>
+        <p class="text-gray-500 mt-6 ">Try now for an early detection</p>
+        <div className="flex justify-center">
+        <button class=" flex mt-12 px-6 py-2 bg-[#54B2B0] border-white/20 border-4 text-white rounded-full shadow-md hover:bg-[#6bb5c4] transition">
+          Start Diagnosis <img src="/assets/sparkles.png" alt="sparkles" className="ml-2" />
         </button>
+        </div>
       </div>
     </div>
 
     </section>
+    <footer class="w-full border- border-gray-200 py-4 text-center text-gray-500 text-sm">
+    <div class="mx-18  flex justify-between items-center px-6 mt-16 mb-4">
+        <div class="flex items-center space-x-2 ">
+            <img src="/assets/logo.png" alt="Logo" class="w-14s h-auto"/> 
+            <span class="text-[#4EA2A1] text-2xl font-medium">Audioscope AI</span>
+        </div>
+        <nav class="flex space-x-6 text-gray-600">
+            <a href="#" class="hover:text-gray-900 text-xl">Home</a>
+            <a href="#" class="hover:text-gray-900 text-xl">Predict</a>
+        </nav>
+    </div>
+    <hr class="border-gray-200 my-2"/>
+    <p class="text-[120%] text-gray-400 my-8">Copyrights 2025. All Rights Reserved.</p>
+    </footer>
+
     </body>
   );
 }
