@@ -1,4 +1,4 @@
-![Banner GithHub]()
+![Banner GithHub](github_banner.png)
 
 # `audioscopeAI`
 
