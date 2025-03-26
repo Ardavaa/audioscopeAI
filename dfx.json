@@ -2,7 +2,8 @@
   "canisters": {
     "web3_backend": {
       "main": "src/web3_backend/main.mo",
-      "type": "motoko"
+      "type": "motoko",
+      "experimental": { "http_requests": true }
     },
     "web3_frontend": {
       "dependencies": [

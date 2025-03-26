@@ -1,9 +1,12 @@
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import './index.css';
 
 import Nav from './nav';
 
 export default function Hero() {
+  const navigate = useNavigate();
+
   return (   
     <body>
       <div 
@@ -18,7 +21,7 @@ export default function Hero() {
           Simply record your cough or breathing sound and let AI detect potential lung diseases in seconds.
         </p>
         <div className="flex justify-center">
-          <button className="mt-6 bg-[#54B2B0] border-white/60 text-white px-6 py-3 rounded-full hover:bg-[#7ad2d0] transition flex">
+          <button onClick={() => navigate("/predict")}  className="mt-6 bg-[#54B2B0] border-white/60 text-white px-6 py-3 rounded-full hover:bg-[#7ad2d0] transition flex">
             Start Diagnosis <img src="/assets/sparkles.png" alt="sparkles" className="ml-2" />
           </button>
         </div>
