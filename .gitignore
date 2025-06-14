@@ -1,0 +1,7 @@
+/.venv
+/src/audioscopeai-backend/__pycache__
+/src/audioscopeai-backend/logs
+/src/audioscopeai-backend/temp
+/src/audioscopeai-frontend/frontend.log
+/src/audioscopeai-backend/backend.log
+.env
