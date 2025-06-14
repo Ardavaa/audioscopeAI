@@ -11,11 +11,11 @@ Audioscope AI is a web-based platform that leverages advanced machine learning a
 
 | **Name**                    | **Role**                                   |
 | --------------------------- | ------------------------------------------ |
-| Muhammad Karov Ardava Barus | Lead, AI/ML Engineer, Full Stack Developer |
-| Farrel Ardya Ghalyndra      | Front End Developer, AI/ML Engineer        |
-| Casta Garneta               | AI/ML Engineer                             |
+| Muhammad Karov Ardava Barus | Lead, AI/ML Engineer                       |
+| Farrel Ardya Ghalyndra      | Web Developer                              |
+| Casta Garneta               | UI/UX Designer                             |
 | Agni Pulung Tondo Drawino   | AI/ML Engineer                             |
-| Amira Nida Nisrina          | AI/ML Engineer                             |
+| Amira Nida Nisrina          | Business Lead & Presenter                  |
 
 ---
 ---
@@ -90,10 +90,6 @@ python -m http.server 8000
 Or use:
 - `npx http-server -p 8000` (Node.js)
 - `php -S localhost:8000` (PHP)
-
-#### 3. Access the App
-- Main: http://localhost:8000
-- Test Interface: http://localhost:8000/test-integration.html
 
 ---
 
